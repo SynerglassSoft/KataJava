@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="98efc41f-9c1f-42ba-ba94-0da399686486" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/hundredDoor/HundredDoor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hundredDoor/HundredDoorTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/reordering/ReorderingTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/reordering/ReorderingTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/romanNumerals/ArabicToRomanNumberConvertorTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/romanNumerals/ArabicToRomanNumberConvertorTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/romanNumerals/RomanToArabicNumberConvertorTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/romanNumerals/RomanToArabicNumberConvertorTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hundredDoor/HundredDoor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hundredDoor/HundredDoor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/reordering/Reordering.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/reordering/Reordering.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/romanNumerals/ArabicToRomanNumberConvertor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/romanNumerals/ArabicToRomanNumberConvertor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/romanNumerals/RomanToArabicNumberConvertor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/romanNumerals/RomanToArabicNumberConvertor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +50,7 @@
     "JUnit.java in Kata.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Correction",
+    "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/RaphaëlBiard/Documents/GitHub/KataJava",
     "project.structure.last.edited": "Project",
