@@ -5,15 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="98efc41f-9c1f-42ba-ba94-0da399686486" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/hundredDoor/HundredDoor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hundredDoor/HundredDoorTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/reordering/Reordering.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/reordering/Reordering.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/romanNumerals/ArabicToRomanNumberConvertor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/romanNumerals/ArabicToRomanNumberConvertor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/romanNumerals/RomanToArabicNumberConvertor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/romanNumerals/RomanToArabicNumberConvertor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/reordering/ReorderingTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/reordering/ReorderingTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/romanNumerals/ArabicToRomanNumberConvertorTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/romanNumerals/ArabicToRomanNumberConvertorTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/romanNumerals/RomanToArabicNumberConvertorTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/romanNumerals/RomanToArabicNumberConvertorTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -28,6 +37,17 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.ArabicToRomanNumberConvertorTests.executor": "Run",
+    "JUnit.HundredDoorTests.executor": "Run",
+    "JUnit.HundredDoorTests.shouldOpenDoor.executor": "Debug",
+    "JUnit.HundredDoorTests.shouldOpenDoorByFivePasses.executor": "Run",
+    "JUnit.HundredDoorTests.shouldOpenDoorByFourPasses.executor": "Run",
+    "JUnit.HundredDoorTests.shouldOpenDoorBySevenPasses.executor": "Run",
+    "JUnit.HundredDoorTests.shouldOpenDoorBySixPasses.executor": "Run",
+    "JUnit.HundredDoorTests.shouldOpenDoorByThreePasses.executor": "Run",
+    "JUnit.HundredDoorTests.shouldOpenDoorByTwo.executor": "Run",
+    "JUnit.HundredDoorTests.shouldOpenEachDoor.executor": "Run",
+    "JUnit.ReorderingTests.executor": "Run",
     "JUnit.java in Kata.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -45,7 +65,68 @@
       <recent name="reordering" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.java in Kata">
+    <configuration name="ArabicToRomanNumberConvertorTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Kata" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="romanNumerals.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="romanNumerals" />
+      <option name="MAIN_CLASS_NAME" value="romanNumerals.ArabicToRomanNumberConvertorTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HundredDoorTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Kata" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hundredDoor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hundredDoor" />
+      <option name="MAIN_CLASS_NAME" value="hundredDoor.HundredDoorTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HundredDoorTests.shouldOpenDoorBySevenPasses" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Kata" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hundredDoor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hundredDoor" />
+      <option name="MAIN_CLASS_NAME" value="hundredDoor.HundredDoorTests" />
+      <option name="METHOD_NAME" value="shouldOpenDoorBySevenPasses" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReorderingTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Kata" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="reordering.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="reordering" />
+      <option name="MAIN_CLASS_NAME" value="reordering.ReorderingTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="java in Kata" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Kata" />
       <option name="TEST_OBJECT" value="directory" />
@@ -57,6 +138,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.java in Kata" />
+        <item itemvalue="JUnit.ArabicToRomanNumberConvertorTests" />
+        <item itemvalue="JUnit.ReorderingTests" />
+        <item itemvalue="JUnit.HundredDoorTests" />
+        <item itemvalue="JUnit.HundredDoorTests.shouldOpenDoorBySevenPasses" />
       </list>
     </recent_temporary>
   </component>

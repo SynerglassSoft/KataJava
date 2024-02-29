@@ -3,7 +3,10 @@ package romanNumerals;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
+//But : Convertir un chiffre arabe (1, 2, 3, 4, ...) en chiffre romain
+
 public class ArabicToRomanNumberConvertorTests {
+
     @Test
     void shouldConvertArabicNumberToRomanNumberOneToNine(){
         assertEquals("I", ArabicToRomanNumberConvertor.convertArabicNumberToRomanNumber(1));
@@ -16,6 +19,7 @@ public class ArabicToRomanNumberConvertorTests {
         assertEquals("VIII", ArabicToRomanNumberConvertor.convertArabicNumberToRomanNumber(8));
         assertEquals("IX", ArabicToRomanNumberConvertor.convertArabicNumberToRomanNumber(9));
     }
+
     @Test
     void shouldConvertArabicNumberToRomanNumberTenToNinety(){
         assertEquals("X", ArabicToRomanNumberConvertor.convertArabicNumberToRomanNumber(10));
@@ -28,6 +32,7 @@ public class ArabicToRomanNumberConvertorTests {
         assertEquals("LXXX", ArabicToRomanNumberConvertor.convertArabicNumberToRomanNumber(80));
         assertEquals("XC", ArabicToRomanNumberConvertor.convertArabicNumberToRomanNumber(90));
     }
+
     @Test
     void shouldConvertArabicNumberToRomanNumberHundredToNineHundred(){
         assertEquals("C", ArabicToRomanNumberConvertor.convertArabicNumberToRomanNumber(100));

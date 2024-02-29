@@ -5,6 +5,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+//But : Étant donné une séquence de caractères, votre tâche consiste à les réorganiser dans l'ordre alphabtéque
 public class ReorderingTests {
     @Test
     void shouldReorderTwoElements(){

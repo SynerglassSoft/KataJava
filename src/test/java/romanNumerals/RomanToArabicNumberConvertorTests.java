@@ -3,6 +3,8 @@ package romanNumerals;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
+//But : Convertir un chiffre romain en chiffre arabe (1, 2, 3, 4, ...)
+
 public class RomanToArabicNumberConvertorTests {
     @Test
     void shouldConvertRomanNumberToArabicOneToNine(){
