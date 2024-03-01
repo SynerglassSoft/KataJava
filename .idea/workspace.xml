@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="98efc41f-9c1f-42ba-ba94-0da399686486" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/hundredDoor/HundredDoor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hundredDoor/HundredDoorTests.java" afterDir="false" />
+    <list default="true" id="98efc41f-9c1f-42ba-ba94-0da399686486" name="Changes" comment="Add HundredDoor">
+      <change afterPath="$PROJECT_DIR$/src/main/java/edabit/Palindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edabit/RecursiveDigit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/edabit/PalindromeTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/edabit/RecursiveDigitTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/reordering/ReorderingTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/reordering/ReorderingTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/romanNumerals/ArabicToRomanNumberConvertorTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/romanNumerals/ArabicToRomanNumberConvertorTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/romanNumerals/RomanToArabicNumberConvertorTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/romanNumerals/RomanToArabicNumberConvertorTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,94 +35,103 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JUnit.ArabicToRomanNumberConvertorTests.executor": "Run",
-    "JUnit.HundredDoorTests.executor": "Run",
-    "JUnit.HundredDoorTests.shouldOpenDoor.executor": "Debug",
-    "JUnit.HundredDoorTests.shouldOpenDoorByFivePasses.executor": "Run",
-    "JUnit.HundredDoorTests.shouldOpenDoorByFourPasses.executor": "Run",
-    "JUnit.HundredDoorTests.shouldOpenDoorBySevenPasses.executor": "Run",
-    "JUnit.HundredDoorTests.shouldOpenDoorBySixPasses.executor": "Run",
-    "JUnit.HundredDoorTests.shouldOpenDoorByThreePasses.executor": "Run",
-    "JUnit.HundredDoorTests.shouldOpenDoorByTwo.executor": "Run",
-    "JUnit.HundredDoorTests.shouldOpenEachDoor.executor": "Run",
-    "JUnit.ReorderingTests.executor": "Run",
-    "JUnit.java in Kata.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Correction",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/RaphaëlBiard/Documents/GitHub/KataJava",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "reference.projectsettings.compiler.rmicompiler"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.ArabicToRomanNumberConvertorTests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.HundredDoorTests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.HundredDoorTests.shouldOpenDoor.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.HundredDoorTests.shouldOpenDoorByFivePasses.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.HundredDoorTests.shouldOpenDoorByFourPasses.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.HundredDoorTests.shouldOpenDoorBySevenPasses.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.HundredDoorTests.shouldOpenDoorBySixPasses.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.HundredDoorTests.shouldOpenDoorByThreePasses.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.HundredDoorTests.shouldOpenDoorByTwo.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.HundredDoorTests.shouldOpenEachDoor.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PalindromeTests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PalindromeTests.shouldAddMinLetterForBuildPalindrome.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RecursiveDigitTests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RecursiveDigitTests.shouldCalculateSuperDigitOf11.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.RecursiveDigitTests.shouldCalculateSuperDigitOf2.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RecursiveDigitTests.shouldCalculateSuperDigitOf29.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.RecursiveDigitTests.test1.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ReorderingTests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.bidul.shouldReorderTwoElements.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.java in Kata.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Correction&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/RaphaëlBiard/Documents/GitHub/KataJava&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.rmicompiler&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="reordering" />
     </key>
   </component>
   <component name="RunManager" selected="JUnit.java in Kata">
-    <configuration name="ArabicToRomanNumberConvertorTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PalindromeTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Kata" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="romanNumerals.*" />
+          <option name="PATTERN" value="edabit.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="romanNumerals" />
-      <option name="MAIN_CLASS_NAME" value="romanNumerals.ArabicToRomanNumberConvertorTests" />
+      <option name="PACKAGE_NAME" value="edabit" />
+      <option name="MAIN_CLASS_NAME" value="edabit.PalindromeTests" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HundredDoorTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PalindromeTests.shouldAddMinLetterForBuildPalindrome" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Kata" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hundredDoor.*" />
+          <option name="PATTERN" value="edabit.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="hundredDoor" />
-      <option name="MAIN_CLASS_NAME" value="hundredDoor.HundredDoorTests" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HundredDoorTests.shouldOpenDoorBySevenPasses" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Kata" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hundredDoor.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="hundredDoor" />
-      <option name="MAIN_CLASS_NAME" value="hundredDoor.HundredDoorTests" />
-      <option name="METHOD_NAME" value="shouldOpenDoorBySevenPasses" />
+      <option name="PACKAGE_NAME" value="edabit" />
+      <option name="MAIN_CLASS_NAME" value="edabit.PalindromeTests" />
+      <option name="METHOD_NAME" value="shouldAddMinLetterForBuildPalindrome" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReorderingTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RecursiveDigitTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Kata" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="reordering.*" />
+          <option name="PATTERN" value="edabit.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="reordering" />
-      <option name="MAIN_CLASS_NAME" value="reordering.ReorderingTests" />
+      <option name="PACKAGE_NAME" value="edabit" />
+      <option name="MAIN_CLASS_NAME" value="edabit.RecursiveDigitTests" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RecursiveDigitTests.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Kata" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edabit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edabit" />
+      <option name="MAIN_CLASS_NAME" value="edabit.RecursiveDigitTests" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -138,10 +147,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.java in Kata" />
-        <item itemvalue="JUnit.ArabicToRomanNumberConvertorTests" />
-        <item itemvalue="JUnit.ReorderingTests" />
-        <item itemvalue="JUnit.HundredDoorTests" />
-        <item itemvalue="JUnit.HundredDoorTests.shouldOpenDoorBySevenPasses" />
+        <item itemvalue="JUnit.RecursiveDigitTests.test1" />
+        <item itemvalue="JUnit.PalindromeTests" />
+        <item itemvalue="JUnit.PalindromeTests.shouldAddMinLetterForBuildPalindrome" />
+        <item itemvalue="JUnit.RecursiveDigitTests" />
       </list>
     </recent_temporary>
   </component>
@@ -162,5 +171,16 @@
       <updated>1709191041809</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/reordering/Reordering.java</url>
+          <line>2</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -36,3 +36,7 @@ build/
 
 ### Mac OS ###
 .DS_Store
+
+/src/main/java/hundredDoor/*
+/src/main/java/reordering/*
+/src/main/java/romanNumerals/*
